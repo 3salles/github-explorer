@@ -1,3 +1,5 @@
+import './styles/global.css'
+
 export function App(){
-  throw new Error('Sou um erro!')
+  return <h1>Hi, there!</h1>
 }
