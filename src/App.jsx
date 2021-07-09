@@ -1,5 +1,10 @@
+import { RepositoryList } from './components/RepositoryList'
 import './styles/global.scss'
 
 export function App(){
-  return <h1>Hi, there!</h1>
+  return (
+    <>
+    <RepositoryList />
+    </>
+  )
 }
